@@ -37,6 +37,6 @@ export default {
         html({
             attributes: {},
         }),
-        serve("dist"),
+        process.env.SERVE === "true" && serve("dist"),
     ],
 };

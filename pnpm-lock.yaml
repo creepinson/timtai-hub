@@ -24,6 +24,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 4.15.1_710f9a8adb5af57320a6197b08241d42
   '@typescript-eslint/parser': 4.15.1_eslint@7.21.0+typescript@4.1.5
   chai: 4.3.0
+  cross-env: 7.0.3
   eslint: 7.21.0
   eslint-config-prettier: 8.0.0_eslint@7.21.0
   eslint-plugin-prettier: 3.3.1_ed8dcce62b4e110c8381c72da386a21c
@@ -1786,6 +1787,17 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==
+  /cross-env/7.0.3:
+    dependencies:
+      cross-spawn: 7.0.3
+    dev: true
+    engines:
+      node: '>=10.14'
+      npm: '>=6'
+      yarn: '>=1'
+    hasBin: true
+    resolution:
+      integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
   /cross-spawn/7.0.3:
     dependencies:
       path-key: 3.1.1
@@ -3992,6 +4004,7 @@ specifiers:
   '@typescript-eslint/parser': 4.15.1
   acorn-jsx: ^5.3.1
   chai: 4.3.0
+  cross-env: ^7.0.3
   eslint: 7.21.0
   eslint-config-prettier: 8.0.0
   eslint-plugin-prettier: 3.3.1
