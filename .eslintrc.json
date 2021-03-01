@@ -24,23 +24,14 @@
     ],
     "plugins": ["prettier", "@typescript-eslint"],
     "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": "warn",
+        "@typescript-eslint/explicit-module-boundary-types": 0,
         "curly": ["warn", "multi"],
-        "quotes": [
-            2,
-            "double"
-        ]
+        "quotes": [2, "double"]
     },
     "overrides": [
         {
-            "files": [
-                "**/*.js"
-            ],
-            "excludedFiles": [
-                "node_modules",
-                "dist",
-                "build"
-            ],
+            "files": ["**/*.js"],
+            "excludedFiles": ["node_modules", "dist", "build"],
             "rules": {
                 "@typescript-eslint/no-var-requires": "off"
             }
